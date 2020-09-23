@@ -1,0 +1,281 @@
+
+@media only screen and (max-width: 810px) {
+    body {
+        background-color: #fff;
+    }
+    .mobilenav{display: block; position: fixed; top: 0; z-index:999;}
+    .headeinfo,.social, .callmail,.logo{display: none;} 
+    .headeinfo{height:0px;}   
+
+    /*---main_manu--*/
+	.main_manu {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		background-color: #000;
+		display: none;
+	} 
+
+	.main_manu ul{
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+	}
+
+	.main_manu ul li a{
+	float: none;
+	color: #fff;
+	font-size:16px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.slider{
+	margin-top: 14%;
+}
+
+/*---main_manu//--*/
+
+	.caption{ display: none;}
+	.about_us{
+		width: 100%;
+		height: auto;
+		margin-top: 100px;
+	}
+
+	.aboutvideo{
+	width: 100%;
+
+	}
+
+	.aboutext{
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	}
+
+	.aboutext h1{
+	font-size: 30px;
+	padding: 20;
+	}
+
+	.aboutext p{
+		padding: 10px;
+		line-height: 25px;
+	}
+
+
+
+	.ovjective{
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 100px;	
+	}
+
+	.boxholder{
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.Trainerholder{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	}
+
+	.Trainer{
+	text-align: center;
+	width:85%;
+	height:auto;
+	margin: 0px auto;
+	padding: 10px;
+	background-color: #fff;
+	}
+
+
+	.evnewscontent{
+		width:100%;
+		height: auto;
+		margin: 0px auto;
+		margin-top: 100px;
+		padding-bottom: 100px;
+	}
+	.evnewsholder{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+
+	.blogscontent{
+	width: 100%;
+	margin: 0px auto;
+	padding-top: 100px;
+	padding: 0;
+	}
+
+
+	.blogholders{
+	width:100%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	display: block;
+	padding: 0;
+	}
+
+	.segilblogs{
+	width: 100%
+	margin: 0px auto;	
+	background-color: #fff;
+	padding: 0;
+	}
+
+	.gelleryholder{
+	width:49%;
+	display: inline-grid;
+	}
+
+	.Partnerscontent{
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 50px;
+	}
+
+	.Partnerscontent img{
+	width:95%;
+	margin: 0px auto;
+	padding: 0px;
+	}
+
+
+	.Contactcontent{
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	background-color: #fff;
+	margin-top: 100px;
+	}
+
+	.segeilContactcontent{
+		width: 100%;
+		height: auto;
+		float: none;		
+	}
+
+	.segeilContactcontent h1{
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	padding: 10px;
+	}
+
+	.segeilContactcontent h5{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 25px;
+
+	}
+
+	.segeilContactcontent p{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	font-size: 18px;
+	}
+
+
+	.footercontent{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #1C1C1C;
+	}
+
+	.footer{
+		width:100%;
+		margin: 0px auto;
+		padding-top: 50px;
+		height: auto;
+	}
+
+	.foorteabout{
+		width: 95%;
+		float: none;
+		padding: 10px;
+		height: auto;
+	}
+
+	.foorteabout p{
+		padding-top: 20px;
+		color: #6E6E6E;
+		text-align: justify;
+	}
+
+	.stext{
+		padding: 10px;
+		width: 95%;
+	}
+
+	.stext h1{
+		color: #fff;
+		font-weight: normal;
+		font-size: 25px;
+	}
+
+	.stext ul{
+		padding-top: 30px;
+		width: 100%;
+	}
+
+	.stext ul i{
+		font-size: 20px;
+		padding-right: 10px;
+		color: #FF8000;
+	}
+
+	.stext ul li a{
+		font-size:16px;
+		color: #fff;
+		font-family: arial;
+		display: list-item;
+		padding-bottom: 10px;
+	}
+
+	.stext ul li a:hover{ color: #FF8000; transition: 0.5s; }
+
+	.find{width:100%;}
+	.find p{text-align: left; color: #fff}
+	.find i{padding-right: 10px; font-size: 20px; color:#FF8000 }
+	.find h1{
+		color: #fff;
+		font-weight: normal;
+		font-size: 25px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

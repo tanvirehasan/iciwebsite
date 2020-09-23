@@ -1,0 +1,685 @@
+/*--
+
+TITLE:
+ICI International Culinary Institute
+
+AUTHOR:
+DESIGNED & DEVELOPED by TANVIR
+
+Website: http://mdtanvirhasan.com/
+Twitter: https://twitter.com/tanvirehasan
+Facebook: http://facebook.com/engtanvirhasan
+
+
+CREDITS:
+
+jQuery
+http://jquery.com/
+
+Google Fonts
+https://www.google.com/fonts/
+
+--*/
+
+
+body{margin: 0;padding: 0;}
+
+h1,h2,h3,h4,h5,h6,b,p,a,i{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+ 	color: #585858;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li{list-style: none;margin: 0;}
+ul{margin: 0;padding: 0;}
+
+.headingtitle h1{
+	text-align: center;
+	padding-top: 100px;
+	clear: both;
+}
+
+.headingtitle hr{
+	width: 150px;
+	height: 1px;
+	margin-top: 10px;
+	border:0px;
+	background-color: #000;
+}
+
+span{
+	color: #FF4000;
+	font-weight: normal;
+	padding-right: 10px;
+
+}
+
+
+
+/*--mobilenav--*/
+
+.mobilenav{
+	width: 95%;
+	height: auto;
+	padding: 5%;
+	background-color: #000;
+	display: none;
+}
+
+
+.mobilenav img{width: 30%; float: left;}
+.mobilenav i{width: 60%; text-align: right; font-size: 20px; color: #fff; }
+
+/*--headerinfo--*/
+.headeinfo{
+	width:85%;
+	height:90px;
+	margin: 0px auto;
+	transition:0.5s;
+
+
+
+}
+
+.logo{
+	width: 25%;
+	float: left;
+}
+.logo img{
+	width: 60%;
+	padding-top: 30px;
+}
+.callmail{
+	width: 25%;
+	float: left;
+	padding-top: 25px;
+}
+.callmail i{
+	font-size:25px;
+	float: left;
+	border: 1px solid #585858;
+	padding:10px;
+	border-radius: 100%;
+}
+.callmail h1{
+	font-size: 14px;
+	float: left;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.callmail p{
+	font-size: 14px;
+	float: left;
+	padding-left: 10px;	
+}
+.social{
+	width: 25%;
+	float: right;
+	padding-top: 22px;
+}
+.social ul{
+	margin: 0;
+	padding: 0;
+}
+.social ul li{
+	display: inline;
+}
+.social ul li a{
+	padding: 5px;
+	font-size: 30px;
+	text-align: right;	
+}
+
+.social ul li a i:hover{ color:#FF8000; transition: 0.1s; }
+
+/*--main_manu--*/
+
+.main_manu{
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	transition: 0.4s;
+	background-color: #424242;
+	z-index: 999;
+	transition: 1s;
+}
+
+.main_manu ul{
+	width: 85%;
+	height: 60px;
+	margin: 0px auto;
+}
+
+.main_manu ul li a{
+	float: left;
+	padding:20px 20px;
+	color: #fff;
+	font-size:16px;
+	text-transform: uppercase;
+}
+
+.main_manu ul li a:hover{
+	color: #FF4000;
+	transition: 1s;
+}
+
+.main_manu a.active {
+  color: #FF4000;
+}
+
+
+/*--slider--*/
+
+.slider{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.slider img{
+	width: 100%;
+}
+
+/*--about_us--*/
+
+.about_us{
+	width: 85%;
+	height: 500px;
+	margin: 0px auto;
+	margin-top: 150px;
+
+}
+
+.aboutvideo{
+	width: 55%;
+	float: left;
+
+}
+
+.aboutext{
+	width: 45%;
+	float: left;
+}
+
+.aboutext h1{
+	font-size: 30px;
+	padding: 50px 0px 20px 30px;
+}
+
+.aboutext p{
+	padding-left: 30px;
+	line-height: 25px;
+}
+
+/*--ovjectivetraner--*/
+
+.ovjectivetraner{
+	width: 100%;
+	padding-bottom: 100px;
+	background-color: #F2F2F2;
+}
+
+.ovjective{
+	width: 85%;
+	margin: 0px auto;
+	margin-top: 100px;
+	
+}
+
+.boxholder{
+	width: 33.3%;
+	float: left;
+}
+
+.ovjectivebox{
+	width: 90%;
+	text-align: center;
+	margin: 0px auto;
+	background-color: #fff;
+}
+
+.ovjectivebox i{
+	padding-top: 30px;
+	padding-bottom:20px;
+	font-size: 30px;
+	color: #FF4000;
+}
+
+.ovjectivebox h2{
+	padding:0px;	
+}
+
+.ovjectivebox p{
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom:40px;
+
+}
+
+.Trainerholder{
+	width: 32.5%;
+	height: auto;
+	display: inline-grid;
+	margin-top: 50px;
+}
+
+.Trainer{
+	text-align: center;
+	width:85%;
+	height:480px;
+	margin: 0px auto;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px #BDBDBD;
+}
+
+.Trainer img{
+	width: 100%;
+}
+
+.Trainer h1{
+	font-size: 20px;
+	color: #FF4000;
+	padding: 0px;
+	padding-top: 30px;
+}
+
+.Trainer h5{
+	font-weight: normal;
+	font-size: 14px;
+	padding: 20px;
+}
+
+.Trainer:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 1px black;
+}
+
+/*--event---*/
+
+.eventnewes{
+	width: 100%;
+	background-color: #000;
+}
+
+.evnewscontent{
+	width: 85%;
+	height: auto;
+	margin: 0px auto;
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+.evnewsholder{
+	width: 33%;
+	height: 400px;
+	display: inline-grid;
+}
+
+.evnews{
+	width: 85%;
+	margin: 0px auto;
+	padding: 15px;
+	background-color: #fff;
+}
+
+.evnews h1{
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.evnews img{
+	width: 100%;
+}
+
+.evnews p{
+	font-size: 14px;
+	text-align: justify;
+}
+
+
+/*-Courses--*/
+
+.Courses{
+	width: 100%;
+	background-color: #F2F2F2;
+}
+
+.Courses h1,.Courses h4, .Courses p{text-align: center;}
+.Courses p{font-size: 14px; padding-top: 5px;padding-bottom: 20px; }
+
+/*--blogs--*/
+.blogs{
+	width: 100%;
+	padding-bottom: 100px;
+	background-color: #fff;
+}
+
+.blogscontent{
+	width: 85%;
+	margin: 0px auto;
+	padding-top: 100px;
+}
+
+
+.blogholders{
+	width:49%;
+	padding-left: 5px;
+	margin: 0px auto;
+	display: inline-grid;
+}
+
+.segilblogs{
+	width: 95%;
+	margin: 0px auto;
+	padding: 15px;
+	background-color: #F2F2F2;
+}
+
+.segilblogs img{
+	width: 100%;
+}
+
+.segilblogs h1{
+	font-size: 25px;
+	font-weight: normal;
+	color: #FF4000;
+	padding: 10px 0px;
+}
+
+.segilblogs i{
+	color: #FF4000;
+	padding-right: 5px;
+	padding: 5px;
+}
+
+.segilblogs p{
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+
+.segilblogs a{
+	background-color: #FF4000;
+	padding: 12px;
+	color: #fff;
+	border-radius: 3px;
+	margin-top: 50px;
+}
+
+.segilblogs a:hover{
+	transition: 0.5s;
+	background-color: #DF3A01;
+}
+
+/*--Gallery--*/
+
+.Gallery{
+	width: 100%;
+	padding-bottom: 100px;
+	background-color: #F2F2F2;
+}
+
+.gelleryholder{
+	width: 33%;
+	height: auto;
+	display: inline-grid;
+}
+
+.sigalgellery{
+	width:95%;
+	margin: 0px auto;
+	padding: 0;
+	margin-bottom: 15px;
+	overflow: hidden;
+	
+}
+
+.sigalgellery img{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	transition: transform .2s; /* Animation */
+}
+
+.sigalgellery:hover{background-color: #000;}
+.sigalgellery img:hover{	
+	opacity: 0.5;
+	cursor: pointer;
+	  transform: scale(1.1);
+}
+
+
+/*--Partners--*/
+
+.Partners{
+	width: 100%;
+	padding-bottom: 100px;
+	background-color: #fff;
+}
+
+.Partnerscontent{
+	width: 85%;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+.partlogo {
+	width:19%;
+	height: 100px;
+	display: inline-table;
+	margin: 0px auto;
+}
+
+.partlogo img{
+	width: 100%;
+	margin: 0px auto;
+}
+
+
+/*---Contact---*/
+
+.Contact{
+	width: 100%;
+	padding-bottom: 100px;
+	background-color: #F2F2F2;
+
+}
+
+.Contactcontent{
+	width: 85%;
+	height: 400px;
+	margin: 0px auto;
+	background-color: #fff;
+	margin-top: 100px;
+
+}
+
+.segeilContactcontent{
+	width: 49%;
+	height: 400px;
+	float: left;
+}
+
+.segeilContactcontent h1{
+	font-size: 30px;
+	font-weight: normal;
+	padding: 50px;	
+	padding-top:50px;
+
+}
+
+.segeilContactcontent h5{
+	font-size: 16px;
+	font-weight: normal;
+	padding:10px 30px;	
+	line-height: 25px;
+}
+
+.segeilContactcontent p{
+	font-size: 12px;
+	font-weight: normal;
+	padding:10px 30px;	
+	font-size: 18px;
+}
+
+.segeilContactcontent  i{padding: 5px;}
+
+/*--footer--*/
+
+footer{clear: both;}
+
+.footercontent{
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	background-color: #1C1C1C;
+}
+
+.footer{
+	width: 85%;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+
+.foorteabout{
+	width: 25%;
+	float: left;
+}
+
+.foorteabout img{width:100%;}
+
+.foorteabout p{
+	padding-top: 20px;
+	color: #6E6E6E;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.stext{
+	padding-left:50px;
+	width: 18%;
+}
+
+.stext h1{
+	color: #fff;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+.stext ul{
+	padding-top: 30px;
+	width: 120px;
+}
+
+.stext ul i{
+	font-size: 20px;
+	padding-right: 10px;
+	color: #fff;
+}
+
+.stext ul li a{
+	font-size:16px;
+	color: #fff;
+	font-family: arial;
+	display: list-item;
+	padding-bottom: 10px;
+}
+
+.stext ul li a:hover{ color: #FF8000; transition: 0.5s; }
+
+.find{width: 25%;}
+.find p{text-align: left; color: #fff}
+.find i{padding-right: 10px; font-size: 20px; color:#fff }
+.find h1{
+	color: #fff;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+/*---copyright-*/
+
+.copyright{
+	width: 100%;
+	height: auto;
+	clear: both;
+	text-align: center;
+	background-color: #000;
+}
+
+.copyright p{padding:30px;}
+
+/*-
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+*/
+
+/*---ICI news page---*/
+
+.icieventnews{
+	width: 85%;
+	height: auto;
+	margin: 0px auto;
+	padding-top: 120px;
+}
+
+.fulleventnews{
+	width: 65%;
+	height: auto;
+	float: left;
+	padding-bottom: 100px;
+}
+
+.fulleventnews h1{line-height: 50px;}
+.fulleventnews i{padding: 10px;}
+.fulleventnews hr{border:1px solid #D8D8D8;}
+
+.fulleventnews p{
+	text-align: justify;
+	line-height: 25px;
+}
+
+.fulleventnews img{
+	width: 100%;
+}
+
+.rightsidebar{
+	width: 32%;
+	height: 600px;
+	float: right;
+}
+
+
+.lastnews{
+	padding: 10px;
+	height: auto;
+	display: inline-block;
+	background-color: #FAFAFA;
+	margin-bottom: 10px;
+}
+
+.lastnews img{
+	width: 40%;
+	float: left;
+	padding-right: 10px;
+}
+
+.lastnews h3{
+	font-size:16px;
+}
+
+.lastnews p{
+	font-size:13px;
+	padding-top: 5px;
+}
